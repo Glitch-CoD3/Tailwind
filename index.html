@@ -3,12 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
+    
     <link href="/src/main.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello</h1>
-    
-    <div class="btn">SUBSCRIBE</div>
+    <section  id="content" class="bg-gray-100">
+        <!-- image content and form -->
+        <div class="container mx-auto flex justify-between gap-28 px-[50px] py-[180px]" >
+            <!-- img and content -->
+            <div class="w-1/2 pt-[40px]">
+                <img class="w-1/2 relative -left-5" src="./images/facebooklogo.svg">
+                <h1 class="text-2xl">Connect with friends and the world around you on Facebook.</h1>
+            </div>
+
+            <!-- form and input and button -->
+            <div class="w-1/2">
+                <!-- for shadow box -->
+                <div class="bg-white shadow-lg p-4 rounded-xl ">
+                    <form class="">
+                        <input class="block border-[1px] p-2 w-full rounded-md text-lg mb-3 focus:outline-none focus:border-blue-500  focus:ring-2 focus:ring-blue-200" type="text" placeholder="Email address or phone number">
+                        <input class="block border-[1px] p-2 w-full rounded-md text-lg mb-3 focus:outline-none focus:border-blue-500  focus:ring-2 focus:ring-blue-200" type="password" placeholder="Password">
+                        <div class="bg= bg-blue-600 rounded-md my-4 hover:bg-blue-500 transition duration-300">
+                            <input type="submit" class="cursor-pointer block w-full text-lg font-bold text-white py-2" value="Log in">
+                        </div>
+                        <div class="my-3">
+                            <a href="#" target="_main" class="block text-center text-blue-500 text-md hover:underline">Forgotten password?</a>
+                        </div>
+
+                        <hr>
+                        <div class="mt-5 mb-2 text-center bg-[#3cb125] rounded-md w-[200px] mx-auto hover:bg-[#3e8d2e] transition duration-300">
+                            <a href="#" class="block py-3 text-white font-bold px-3 text-lg" >Create new account</a>
+                        </div>
+                    </form>
+                    
+                </div>
+                <p class="w-full text-center mt-6">
+                    <b> <a href="#"  class="hover:underline">Create a Page</a></b> for a celebrity, brand or business.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
 </body>
 </html>
