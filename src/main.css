@@ -2,3 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* ############   homePage css design  ########### */
+*{
+    @apply m-0 p-0;
+}
+.section{
+    @apply bg-gray-200;
+}
+
+
+/* header section */
+
+.header{
+    @apply w-full h-14 flex bg-white shadow-sm; 
+}
+
+/* header left side style */
+.left-side{
+    @apply  w-1/4 h-full flex justify-center items-center pr-3;
+}
+
+.logoDiv{
+    @apply w-1/4 h-14 flex items-center ml-3 -mr-2;
+}
+
+#Search{
+    @apply w-full h-10 flex items-center border-none rounded-3xl text-[16px] bg-gray-100;
+}
+.SrcInput{
+    @apply placeholder-gray-500 focus:outline-none bg-gray-100 -ml-4
+}
