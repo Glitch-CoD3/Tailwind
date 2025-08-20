@@ -33,3 +33,10 @@
 .SrcInput{
     @apply placeholder-gray-500 focus:outline-none bg-gray-100 -ml-4
 }
+
+/* header center home,video,marketplace, groups, game */
+
+.icon{
+    @apply w-[27px] h-[27px] justify-center;
+}
+
